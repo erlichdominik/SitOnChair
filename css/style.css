@@ -1,12 +1,12 @@
 body {
-  padding: 0;
-  margin:  0;
+  font-family: 'Raleway', sans-serif;
+  padding:                         0;
+  margin:                          0;
+
 }
 /* UNIVERSAL CLASSES */
 .container {
-  padding-right: 10px;
-  padding-left:  10px;
-  max-width:   1300px;
+  max-width:   1200px;
   margin:      0 auto;
 }
 .line-border{
@@ -20,24 +20,37 @@ body {
   text-transform: uppercase;
   width:               100%;
   color:              white;
+  height:              41px;
+
 }
 .header-container {
   justify-content: space-between;
-  align-items:            center;
+  /* align-items:            center; */
   display:                  flex;
 }
-.sit-on-char {
+.sit-on-chair {
+  margin-left: 69px;
+  font-size: 14px;
+  /* padding-top: 2px; */
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+
 
 }
 .nav {
-
+  margin-right: 58px;
 }
 .nav-list {
   list-style-type: none;
   display:         flex;
 }
 .nav-item {
-  margin: 0 10px;
+  margin: 0px  20px;
+  font-size: 14px;
+  /* margin-right: 40px; */
+}
+.nav-item:first-child {
+  margin-right: 44px;
 }
 /* FIRST SECTION */
 .first-section {
@@ -368,5 +381,28 @@ body {
   background-image: url("../images/red_chair.png");
   background-size:                           cover;
   height:                                    300px;
-  width:                                     350px;
+  width:                                     380px;
+}
+/* FOOTER */
+.footer {
+  margin-bottom: 20px;
+}
+.footer-left-side-text {
+  float: left;
+}
+.footer-right-side {
+  justify-content: flex-end;
+  display:             flex;
+}
+.footer-right-side-text {
+  justify-content: flex-end;
+  text-transform: uppercase;
+  align-items:       center;
+  display:             flex;
+}
+.footer-right-side-text > * {
+  margin: 0 5px;
+}
+.footer-images {
+  margin-right: 50px;
 }
