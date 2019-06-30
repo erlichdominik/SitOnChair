@@ -1,0 +1,278 @@
+body {
+  padding: 0;
+  margin:  0;
+}
+/* UNIVERSAL CLASSES */
+.container {
+  padding-right: 10px;
+  padding-left:  10px;
+  max-width:   1300px;
+  margin:      0 auto;
+}
+.line-border{
+  display: block;
+  content: "";
+  border-bottom: 5px solid #24BA9F;
+}
+/* HEADER */
+.header {
+  background-color:   black;
+  text-transform: uppercase;
+  width:               100%;
+  color:              white;
+}
+.header-container {
+  justify-content: space-between;
+  align-items:            center;
+  display:                  flex;
+}
+.sit-on-char {
+
+}
+.nav {
+
+}
+.nav-list {
+  list-style-type: none;
+  display:         flex;
+}
+.nav-item {
+  margin: 0 10px;
+}
+/* FIRST SECTION */
+.first-section {
+  /* GRADIENT */
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+  background-size: cover;
+}
+.first-section-container {
+  justify-content: space-between;
+  align-items:            center;
+  display:                  flex;
+}
+.first-section-container .black-chair{
+  width: 33%;
+}
+.first-section-container .first-section-article {
+  width: 33%;
+}
+.left-side-sign {
+  font-size: 60px;
+  color:  #24BA9F;
+}
+.black-chair {
+  background-image: url("../images/black_chair.png");
+  height:   300px;
+}
+.first-section-article {
+  text-align:        center;
+}
+.first-section-article h2 {
+  text-transform: uppercase;
+}
+.first-section-article p {
+
+}
+.first-section-article button {
+  background-color: #24BA9F;
+  border-radius:         5%;
+  font-size:           24px;
+  border:                 0;
+  height:              50px;
+  width:              200px;
+  color:              white;
+}
+.right-side-sign {
+  font-size: 60px;
+  color:  #24BA9F;
+}
+/* SECOND SECTION */
+.second-section {
+
+}
+.second-section-container {
+  justify-content: space-between;
+  display:                  flex;
+  padding:         15px 0 30px 0;
+}
+.second-section-container > * {
+  width: 30%;
+}
+.second-section-images {
+  border: 1px solid lightgray;
+  height:               200px;
+}
+.chair-clair {
+  background-image: url("../images/box1_img.jpg");
+  position: relative;
+}
+.chair-margarita {
+  background-image: url("../images/box2_img.jpg");
+  position: relative;
+}
+.second-section-text-box {
+  border: 1px solid lightgray;
+  height:               220px;
+}
+.second-section-text-box > * {
+  margin: 20px 10px;
+}
+.second-section-text-box > h4 {
+  width: 160px;
+}
+.transparency-border-chair-margarita {
+  background-color: rgba(245, 245, 245, 0.3);
+  position:                         absolute;
+  bottom:                                5px;
+  margin:                          0 0 5px 0;
+  width:                                100%;
+}
+.transparency-border-chair-clair {
+  background-color: rgba(245, 245, 245, 0.3);
+  position:                         absolute;
+  bottom:                                5px;
+  margin:                          0 0 5px 0;
+  width:                                100%;
+}
+.transparency-border-chair-margarita > p {
+  font-weight: bold;
+  width:      150px;
+}
+.transparency-border-chair-clair > p {
+  font-weight: bold;
+  width:      150px;
+}
+/* THIRD SECTION */
+.third-section {
+
+}
+.third-section-upper-text {
+  margin-bottom: 10px;
+  width:        390px;
+}
+/* BASIC PLAN BOX */
+.third-section-boxes {
+  justify-content: space-between;
+  display:                  flex;
+}
+.third-section-boxes > * {
+  width: 29%;
+}
+.basic-plan {
+  border: 1px solid lightgray;
+  height:               500px;
+  position:          relative;
+}
+.basic-plan > h2 {
+  text-align: center;
+
+}
+.basic-plan-round-box > p {
+  padding: 0;
+  margin:  0;
+}
+.basic-plan-round-box {
+  justify-content:     center;
+  flex-direction:      column;
+  border-radius:          50%;
+  align-items:         center;
+  border: 1px solid lightgray;
+  display:               flex;
+  height:               100px;
+  margin:              0 auto;
+  width:                100px;
+}
+.basic-plan-list {
+  list-style-type: none;
+  padding-left:       0;
+}
+.basic-plan-list-element {
+  text-align:center;
+  margin:    10px 0;
+}
+.basic-plan-button {
+  position: absolute;
+  bottom:          0;
+  right:         45%;
+}
+.standard-plan {
+  border: 1px solid lightgray;
+  height:               500px;
+  position:          relative;
+}
+.standard-plan > h2 {
+  text-align: center;
+
+}
+.standard-plan-round-box > p {
+  padding: 0;
+  margin:  0;
+}
+.standard-plan-round-box {
+  justify-content:     center;
+  flex-direction:      column;
+  border-radius:          50%;
+  align-items:         center;
+  border: 1px solid lightgray;
+  display:               flex;
+  height:               100px;
+  margin:              0 auto;
+  width:                100px;
+}
+.standard-plan-list {
+  list-style-type: none;
+  padding-left:       0;
+}
+.standard-plan-list-element {
+  text-align:center;
+  margin:    10px 0;
+}
+.standard-plan-button {
+  position: absolute;
+  bottom:          0;
+  right:         45%;
+}
+.advance-plan {
+  border: 1px solid lightgray;
+  height:               500px;
+  position:          relative;
+}
+.advance-plan > h2 {
+  text-align: center;
+
+}
+.advance-plan-round-box > p {
+  padding: 0;
+  margin:  0;
+}
+.advance-plan-round-box {
+  justify-content:     center;
+  flex-direction:      column;
+  border-radius:          50%;
+  align-items:         center;
+  border: 1px solid lightgray;
+  display:               flex;
+  height:               100px;
+  margin:              0 auto;
+  width:                100px;
+}
+.advance-plan-list {
+  list-style-type: none;
+  padding-left:       0;
+}
+.advance-plan-list-element {
+  text-align:center;
+  margin:    10px 0;
+}
+.advance-plan-button {
+  position: absolute;
+  bottom:          0;
+  right:         45%;
+}
