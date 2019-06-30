@@ -41,6 +41,7 @@ body {
 }
 /* FIRST SECTION */
 .first-section {
+  margin: 0 20px;
   /* GRADIENT */
   background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
@@ -151,7 +152,9 @@ body {
 }
 /* THIRD SECTION */
 .third-section {
-
+  background-color: #F1F1F1;
+  margin: 0 20px;
+  margin-bottom:       20px;
 }
 .third-section-upper-text {
   margin-bottom: 10px;
@@ -216,6 +219,7 @@ body {
   height:              40px;
   right:                30%;
   width:                40%;
+
   color:              white;
 }
 .standard-plan {
@@ -322,4 +326,47 @@ body {
   right:                30%;
   width:                40%;
   color:              white;
+}
+/* FOURTH SECTION */
+.fourth-section {
+  margin: 40px 0;
+}
+.fourth-section-upper-text {
+  margin-bottom: 10px;
+  width:        390px;
+}
+.fourth-section-boxes {
+  flex-wrap: wrap;
+  display:   flex;
+}
+.fourth-section-left-side {
+  width: 60%;
+}
+.fourth-section-right-side {
+  margin-left: 120px;
+  width:         30%;
+}
+.fourt-section-left-side {
+  flex-wrap: wrap;
+  display:   flex;
+}
+.fourth-section-form > * {
+  margin: 10px 0;
+  width:    100%;
+}
+.fourth-section-form input {
+  height: 35px;
+}
+.fourth-section-textarea {
+  resize: none;
+}
+.fourth-section-right-side {
+  flex-wrap: wrap;
+  display:   flex;
+}
+.fourth-section-red-chair {
+  background-image: url("../images/red_chair.png");
+  background-size:                           cover;
+  height:                                    300px;
+  width:                                     350px;
 }
