@@ -166,6 +166,7 @@ body {
   width: 29%;
 }
 .basic-plan {
+  background-color:   #F1F1F1;
   border: 1px solid lightgray;
   height:               500px;
   position:          relative;
@@ -175,10 +176,11 @@ body {
 
 }
 .basic-plan-round-box > p {
-  padding: 0;
-  margin:  0;
+  padding:              0;
+  margin:               0;
 }
 .basic-plan-round-box {
+  background-color:     white;
   justify-content:     center;
   flex-direction:      column;
   border-radius:          50%;
@@ -192,18 +194,33 @@ body {
 .basic-plan-list {
   list-style-type: none;
   padding-left:       0;
+  padding:       20px 0;
 }
 .basic-plan-list-element {
   text-align:center;
-  margin:    10px 0;
+  padding:   20px 0;
+}
+.basic-plan-list-element:nth-child(2n+1) {
+  background-color:   #F9F9F9;
+}
+.basic-plan-list-element:nth-child(even) {
+    background-color: #CBCBCB;
 }
 .basic-plan-button {
-  position: absolute;
-  bottom:          0;
-  right:         45%;
+  background-color: #24BA9F;
+  text-transform: uppercase;
+  border-radius:        10%;
+  position:        absolute;
+  bottom:                 0;
+  border:                 0;
+  height:              40px;
+  right:                30%;
+  width:                40%;
+  color:              white;
 }
 .standard-plan {
   border: 1px solid lightgray;
+  background-color:   #24BA9F;
   height:               500px;
   position:          relative;
 }
@@ -216,11 +233,11 @@ body {
   margin:  0;
 }
 .standard-plan-round-box {
+  background-color:     white;
   justify-content:     center;
   flex-direction:      column;
   border-radius:          50%;
   align-items:         center;
-  border: 1px solid lightgray;
   display:               flex;
   height:               100px;
   margin:              0 auto;
@@ -229,17 +246,32 @@ body {
 .standard-plan-list {
   list-style-type: none;
   padding-left:       0;
+  padding:       22px 0;
 }
 .standard-plan-list-element {
   text-align:center;
-  margin:    10px 0;
+  padding:   20px 0;
+}
+.standard-plan-list-element:nth-child(2n+1) {
+  background-color:     white;
+}
+.standard-plan-list-element:nth-child(even) {
+    background-color: #CBCBCB;
 }
 .standard-plan-button {
-  position: absolute;
-  bottom:          0;
-  right:         45%;
+  background-color:   white;
+  text-transform: uppercase;
+  border-radius:        10%;
+  position:        absolute;
+  bottom:                 0;
+  border:                 0;
+  height:              40px;
+  right:                30%;
+  width:                40%;
+  color:            #24BA9F;
 }
 .advance-plan {
+  background-color:   #F1F1F1;
   border: 1px solid lightgray;
   height:               500px;
   position:          relative;
@@ -253,6 +285,7 @@ body {
   margin:  0;
 }
 .advance-plan-round-box {
+  background-color:     white;
   justify-content:     center;
   flex-direction:      column;
   border-radius:          50%;
@@ -266,13 +299,27 @@ body {
 .advance-plan-list {
   list-style-type: none;
   padding-left:       0;
+  padding:       21px 0;
 }
 .advance-plan-list-element {
   text-align:center;
-  margin:    10px 0;
+  padding:   20px 0;
+}
+.advance-plan-list-element:nth-child(2n+1) {
+  background-color:   #F9F9F9;
+}
+.advance-plan-list-element:nth-child(even) {
+    background-color: #CBCBCB;
 }
 .advance-plan-button {
-  position: absolute;
-  bottom:          0;
-  right:         45%;
+  background-color: #24BA9F;
+  text-transform: uppercase;
+  border-radius:        10%;
+  position:        absolute;
+  bottom:                 0;
+  border:                 0;
+  height:              40px;
+  right:                30%;
+  width:                40%;
+  color:              white;
 }
