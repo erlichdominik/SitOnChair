@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: #ffffff;
+  background-color: black;
+  width: 100%;
+}
+
+.header-container {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-list-element {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-list-element:nth-child(2) {
+  margin: 0 50px;
+}
+
+.section-one {
+  width: 100%;
+  font-family: sans-serif;
+  height: 500px;
+}
+
+.section-one-container {
+  max-width: 85%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+}
+
+.section-one-left-arrow {
+  font-size: 75px;
+  font-weight: bold;
+  color: #24ba9f;
+}
+
+.section-one-text {
+  width: 35%;
+  text-align: center;
+}
+
+.section-one-header {
+  text-transform: uppercase;
+}
+
+.section-one-p-tag {
+  color: #666665;
+}
+
+.section-one-button {
+  border: 0;
+  width: 250px;
+  height: 50px;
+  background-color: #24ba9f;
+  color: #ffffff;
+  font-size: 24px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.section-one-right-arrow {
+  font-size: 75px;
+  font-weight: bold;
+  color: #24ba9f;
+}
+
+.section-two {
+  width: 100%;
+  height: 300px;
+}
+
+.section-two-container {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-two-left-side {
+  width: 350px;
+  height: 250px;
+  background-image: url("../images/box1_img.jpg");
+  background-size: cover;
+  border: 1px solid #666665;
+}
+
+.section-two-middle {
+  width: 350px;
+  height: 250px;
+  background-image: url("../images/box2_img.jpg");
+  background-size: cover;
+  margin: 0 30px;
+  border: 1px solid #666665;
+}
+
+.section-two-right-side {
+  width: 350px;
+  height: 280px;
+  border: 1px solid #666665;
+}
+
+/*# sourceMappingURL=main.css.map */
